@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+h1 {
+	font-family: Brush Script MT, cursive;
+	font-size: 50px;
+	text-align: center;
+	font-style: oblique;
+}
+
+#chicken1 {
+	font-family: Arial, sans-serif;
+	border: 4px solid darkkhaki;
+	padding: 7px;
+	font-size: 18px;
+	background-color: lightyellow;
+	margin: auto;
+	text-align: justify-all;
+	text-transform: capitalize;
+}
+
+#beef1 {
+	font-family: Arial, sans-serif;
+	border: 4px solid darkkhaki;
+	padding: 7px;
+	font-size: 18px;
+	background-color: lightyellow;
+	margin: auto;
+	text-align: justify-all;
+	text-transform: capitalize;
+}
+
+#sushi1 {
+	font-family: Arial, sans-serif;
+	border: 4px solid darkkhaki;
+	padding: 7px;
+	font-size: 18px;
+	background-color: lightyellow;
+	margin: auto;
+	text-align: justify-all;
+	text-transform: capitalize;
+}
+
+#chicken2 {
+	width: 130px;
+	text-align: center;
+	font-family: Georgia, serif;
+	border: 4px solid dimgray;
+	padding: 5px;
+	font-size: 20px;
+	background-color: lightgray;
+	margin: auto;	
+	text-transform: uppercase;	
+	position: absolute;
+}
+
+#beef2 {
+	width: 130px;
+	text-align: center;
+	font-family: Georgia, serif;
+	border: 4px solid dimgray;
+	padding: 5px;
+	font-size: 20px;
+	background-color: lightgray;
+	margin: auto;	
+	text-transform: uppercase;	
+	position: absolute;
+}
+
+#sushi2 {
+	width: 130px;
+	text-align: center;
+	font-family: Georgia, serif;
+	border: 4px solid dimgray;
+	padding: 5px;
+	font-size: 20px;
+	background-color: lightgray;
+	margin: auto;	
+	text-transform: uppercase;	
+	position: absolute;
+}
+
+.row {
+	width: 100%;
+}
+
+@media (max-width: 767px) {
+	#chicken1 {
+		width: 90%;
+	}
+
+	#beef1 {
+		width: 90%;
+	}
+
+	#sushi1 {
+		width: 90%;
+	}
+}
+
+@media (min-width: 992px) {
+	#chicken1 {
+		width: 30%;
+		float: left;
+	}
+
+	#beef1 {
+		width: 30%;
+		float: right;
+		clear: left;
+	}
+
+	#sushi1 {
+		width: 30%;
+		float: right;
+		clear: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	#chicken1 {
+		width: 45%;
+	}
+
+	#beef1 {
+		width: 45%;
+	}
+
+	#sushi1 {
+		width: 90%;
+	}
+}
+
